@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width:1170px;
+    margin:5px;
+}
+.wrapper img{
+    margin:10px;
+    width:400px;
+    float:left;
+    height:auto;
+}
+
+header{
+    background:url("hii.jpg");
+    height:200vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.nav-area{
+    float:right;
+    list-style:none;
+    margin-top:100px;
+    margin-right:-275px;
+}
+.nav-area li {
+    display:inline-block;
+    
+}
+.nav-area li h2{
+    text-align:left;
+}
+.nav-area li a h2{
+    color:black;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family:poppins;
+    font-size:20px;
+}
+.nav-area li a h2:hover{
+    background:white;
+    color:green;
+    text-align: left;
+}
+
+.welcome-text{
+    position: absolute;
+    width:600px;
+    height:300px;
+    margin:20% 30%;
+    text-align:center;
+    
+}
+.welcome-text h1{
+    text-align:center;
+    color:brown;
+    word-spacing:22px;
+    text-transform:uppercase;
+    font-style:italic;
+    font-size:60px;
+}
+.welcome-text a h2{
+    background-color: white;
+    border:1px solid #fff;
+    padding:10px 25px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+    margin-top:20px;
+    word-spacing: 5px;
+    display:inline-block;
+    color:black;
+    font-style: oblique;
+}
+.welcome-text a h2:hover{
+    background:darkmagenta;
+    color:white;
+}
+
+footer h2{
+    padding-top:40px;
+    color:black;
+    text-align: center;
+}
+.hello h1{
+    font-style: italic;
+    text-align:center;
+    font-size:35px;
+    margin-top: 30px;
+    margin-left:150px;
+    margin-right:150px;
+    color:black;
+}
+p{
+    text-align:center;
+    font-size: 20px;
+    color:brown;
+   
+}
